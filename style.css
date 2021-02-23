@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+.class-title{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(120deg, #1e656d,#00239C);
+}
+.class-title a{
+    text-emphasis: none;
+    text-decoration: none;
+    color: white;
+}
+body{
+    background: black;
+    color: white;
+}
+.content-container{
+    padding: 0 30px
+}
+.animation{
+    width: 25%;
+}
+.container-video{
+    text-align: center;
+    display: flex;
+    padding-top: 20px;
+}
+iframe{
+    width: 50%;
+}
+.container-lyrics{
+    padding-top: 40px;
+    font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+}
+.container-lyrics div{
+    width: 100%;
+}
+footer{
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.firts{
+    text-align: left;
+}
+.second{
+    text-align: center;
+}
+.third{
+    text-align: right;
+}
+.caja1{
+    background: #fd5f04;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 130px;
+    margin-left: 100px;
+    animation: latidos 2s infinite;
+}
+@keyframes latidos {
+    from { transform: none; }
+    50% { transform: scale(1.4); }
+    to { transform: none; }
+}
+p{
+    transition: all .5s ease;
+}
+.third p:hover{
+    padding-right: 20px;
+    color: gray;
+    cursor: pointer; 
+}
+p:hover{
+    padding-left: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
